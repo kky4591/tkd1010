@@ -29,7 +29,7 @@ export const siteConfig = {
     },
     {
       title: '柔軟なスケジュール',
-      description: 'ライフスタイルに合わせた多様な練習時間',
+      description: 'ライフスタイルに合わせた練習時間',
       icon: 'Timer',
     },
   ],
