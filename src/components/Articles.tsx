@@ -2,6 +2,7 @@ import React from 'react';
 import { siteConfig } from '../config/siteConfig';
 
 const Articles = () => {
+/* 
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
@@ -27,6 +28,7 @@ const Articles = () => {
       </div>
     </section>
   );
+ */
 };
 
 export default Articles;

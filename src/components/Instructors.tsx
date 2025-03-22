@@ -12,7 +12,7 @@ const Instructors = () => {
               <img
                 src={instructor.image}
                 alt={instructor.name}
-                className="w-48 h-48 rounded-full mx-auto mb-4 object-cover"
+                className="w-47 h-48 rounded-full mx-auto mb-4 object-cover"
               />
               <h3 className="text-xl font-semibold mb-1">{instructor.name}</h3>
               <p className="text-gray-600">{instructor.role}</p>

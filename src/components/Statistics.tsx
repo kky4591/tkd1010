@@ -1,8 +1,8 @@
 import React from 'react';
 import { siteConfig } from '../config/siteConfig';
 
-const Statistics = () => {
-  return (
+ const Statistics = () => {
+/*   return (
     <section className="py-16 bg-red-700">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -16,6 +16,7 @@ const Statistics = () => {
       </div>
     </section>
   );
+ */
 };
 
 export default Statistics;

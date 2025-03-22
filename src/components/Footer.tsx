@@ -14,23 +14,10 @@ const Footer = () => {
             <p className="text-gray-400">電話: {siteConfig.contact.phone}</p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4">クイックリンク</h3>
-            <ul className="space-y-2">
-              {siteConfig.navigation.map((item, index) => (
-                <li key={index}>
-                  <a href={item.href} className="text-gray-400 hover:text-white">
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
             <h3 className="text-xl font-semibold mb-4">練習時間</h3>
-            <p className="text-gray-400">月曜 - 金曜: {siteConfig.hours.weekday}</p>
-            <p className="text-gray-400">土曜: {siteConfig.hours.saturday}</p>
-            <p className="text-gray-400">日曜: {siteConfig.hours.sunday}</p>
+            <p className="text-gray-400">第２・４ 日曜日: {siteConfig.hours.sunday}<br /> ※月２回のレッスンとなります</p>
           </div>
+{/* SNSリンク
           <div>
             <h3 className="text-xl font-semibold mb-4">SNS</h3>
             <div className="flex space-x-4">
@@ -39,7 +26,8 @@ const Footer = () => {
               <Instagram className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer" />
               <Mail className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer" />
             </div>
-          </div>
+          </div> 
+*/}
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">© 2024 {siteConfig.name}. All rights reserved.</p>
